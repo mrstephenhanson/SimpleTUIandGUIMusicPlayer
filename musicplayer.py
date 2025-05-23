@@ -10,7 +10,7 @@ from pathlib import Path
 
 class MusicPlayer:
     def __init__(self):
-        self.music_dir = "/Plex/Drive/Media/Music/"  # Change this to your music directory
+        self.music_dir = "/home/user/music"  # Change this to your music directory
         self.music_library = {}
         self.current_song = None
         self.process = None
